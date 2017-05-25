@@ -1,6 +1,6 @@
 // Create the Faye client. 
 // (All you need is the mount point for the Faye server you want to connect to)
- var client = new Faye.Client('http://localhost:3000/faye')
+ var client = new Faye.Client('/faye')
  
 $(document).ready(function () {
 
